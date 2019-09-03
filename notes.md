@@ -24,11 +24,13 @@ Het duurt ca 1.5 a 2 uur
 * Normale bingo = 100 getallen (0 - 99)
 * Kans op normale bingo 1 kaart is
 
-# Tooltjes
+# Referenties en tooltjes
 * Export spotify playlist -> csv:
   https://github.com/watsonbox/exportify
 * Shuffle spotify playlist:
   https://stevenaleong.com/tools/spotifyplaylistrandomizer 
+* Bingo kansen:
+  http://www.durangobill.com/Bingo.html
  
 # TODO
 * maken playlist ca 150 liedjes en export
