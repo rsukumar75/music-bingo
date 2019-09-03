@@ -23,8 +23,17 @@ Het duurt ca 1.5 a 2 uur
   * 2   * 60 / .45 = 266.6
 * Normale bingo = 100 getallen (0 - 99)
 * Kans op normale bingo 1 kaart is
+
+# Tooltjes
+* Export spotify playlist -> csv:
+  https://github.com/watsonbox/exportify
+* Shuffle spotify playlist:
+  https://stevenaleong.com/tools/spotifyplaylistrandomizer 
  
 # TODO
+* maken playlist ca 150 liedjes en export
+* toevoegen random ids in youtube playlist
+* genereren kaarten
 * hoe lang afspelen? Lang genoeg voor meezingen, kort genoeg zodat mensen blijven opletten
 * artiest - titel - ...?
 * hoe veel liedjes?

@@ -15,7 +15,7 @@ with open(input_file, 'r') as f:
     r = csv.reader(f, delimiter=',', quotechar='"')
     _ = next(r)
     for row in r:
-        input_words.append(row[0])
+        input_words.append(row[2])
         input_ids.append(row[1])
 
 print('Creating bingo cards for: ' + str(len(input_words)) + ' words')
@@ -44,6 +44,9 @@ with open(save_path, 'w') as f:
             }
             img {
                 max-height: 50px;
+            }
+            br.space{
+                margin-top: 70px;
             }
             @media print{
                 br.page{
@@ -89,5 +92,5 @@ with open(save_path, 'w') as f:
         if (i+1) % 2 == 0:
             f.write("<br class='page'/>")
         else:
-            f.write("<br/>")
+            f.write("<br class='space'/>")
         f.write("\n")
