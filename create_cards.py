@@ -2,12 +2,12 @@ import random
 import csv
 import math
 
-numbersheets = 300
+numbersheets = 40
 gridsize = 5
 stepping = 16
 save_path = './cards.html'
 input_file = './input.csv'
-center_figure = '<img src="https://raw.githubusercontent.com/florisdenhengst/music-bingo/master/center-img-small.png"/>'
+center_figure = '<img src="https://raw.githubusercontent.com/rsukumar75/music-bingo/master/center-img.png"/>'
 
 input_words = []
 input_ids = []
