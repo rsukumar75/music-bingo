@@ -45,11 +45,11 @@ with open(save_path, 'w') as f:
             img {
                 max-height: 50px;
             }
-            br.space{
+            .space{
                 margin-top: 70px;
             }
             @media print{
-                br.page{
+                .pagebreak {
                     page-break-before: always;
                 }
             }
@@ -90,7 +90,7 @@ with open(save_path, 'w') as f:
             f.write("</tr>\n")
         f.write("</table>")
         if (i+1) % 2 == 0:
-            f.write("<br class='page'/>")
+            f.write("<div class='pagebreak'> <br/> <div/>")
         else:
-            f.write("<br class='space'/>")
+            f.write("<div class='space'> <br/> <div/>")
         f.write("\n")
